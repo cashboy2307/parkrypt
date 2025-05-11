@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e7303d; /* Custom red */
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 900px;
+    padding: 30px;
+  }
+  
+  .logo {
+    max-width: 650px;
+    margin-bottom: 25px;
+  }
+  
+  h1 {
+    font-size: 2.7rem;
+    margin-bottom: 20px;
+  }
+  
+  .intro {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .content {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .contact-buttons {
+    margin-top: 30px;
+  }
+  
+  .contact-btn {
+    display: inline-block;
+    background-color: black;
+    color: #e7303d;
+    padding: 12px 25px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-btn:hover {
+    background-color: #333;
+  }
